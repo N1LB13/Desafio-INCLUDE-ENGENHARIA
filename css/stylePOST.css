@@ -136,8 +136,8 @@ div.post{
 .image-container {
     float: left;
 
-    border: 5px solid #b6aeae; /* Define a largura e a cor da borda */
-    width: 129px; /* Define a largura da div de contêiner */
+    border: 5px solid #b6aeae; 
+    width: 129px; 
     height: 159px;    
     border-radius: 5px;
     
@@ -145,8 +145,8 @@ div.post{
 
 /* Estilo CSS para a imagem */
 .image-container img {
-    width: 120px; /* Garante que a imagem se ajuste à largura da div */
-    height: 150px; /* Mantém a proporção da imagem */
+    width: 120px; 
+    height: 150px; 
 }
 div.sidebar{
    
