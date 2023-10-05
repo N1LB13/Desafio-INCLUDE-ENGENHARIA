@@ -1,0 +1,215 @@
+/* config padrão */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.cdnfonts.com/css/barbie');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container{
+    padding: 0 2%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+/* Header */
+header .container{
+    
+    padding: 1px 10%;
+    
+}
+header .logo h2{
+    color: #e0218a;
+    cursor: pointer;
+    font-family: 'Barbie', sans-serif;
+    font-size: 40px;
+    margin: 10px;
+    
+}
+header .logo h2:hover{
+    color: #e0218a;
+    padding: 0 10px;
+    transform: scale(1.09,1.09);
+    transition: 0.5s;
+
+}
+
+header .menu ul{
+    list-style-type: none;
+    padding-top: 15px;
+    
+}
+header .menu ul li{
+    display: inline-block; /* deixa todos de ladinho */
+    font-size: 22px;
+    padding: 4px;
+    border-radius: 6px;
+    
+}
+header .menu ul li:hover{
+    
+    border: 0.5px solid rgb(120 120, 120);
+
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(224,33,138,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(224,33,138,1);
+    box-shadow: 1px 1px 5px 0px rgba(224,33,138,1);
+  
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    color: #e0218a;
+    
+}
+.logo2 img{
+   padding-left: 4px;
+    width: 31px;
+    height: 35px;
+    margin: 4px;
+    
+}
+
+/* Header */
+
+
+
+/* Box-captura */
+section.box-captura{
+    padding: 0 10%;
+    height: 80px;
+    background-color:#e0218a;
+
+}
+div.titulo{
+    color: white;
+    padding-top: 12px;
+    padding-left: 18px;
+    font-size: 28px;
+}
+
+/* Box-captura */
+
+
+
+/* content */
+section.content{
+    
+    padding: 0 10%;
+    height: 90%;
+    background-color: #e0218a;
+   
+}
+.menu{
+    font-family: 'Barbie', sans-serif;
+}
+div.post{
+    
+    padding-top: 30px;
+    padding-left: 15px;
+    background-color: white;
+    width: 55%;
+    border-radius: 30px;
+}
+.image-container {
+    float: left;
+
+    border: 5px solid #b6aeae; /* Define a largura e a cor da borda */
+    width: 129px; /* Define a largura da div de contêiner */
+    height: 159px;    
+    border-radius: 5px;
+    
+}
+
+/* Estilo CSS para a imagem */
+.image-container img {
+    width: 120px; /* Garante que a imagem se ajuste à largura da div */
+    height: 150px; /* Mantém a proporção da imagem */
+}
+div.sidebar{
+    
+    background-color: white;
+    width: 35%;
+    border-radius: 30px;
+}
+div.sidebar h3{
+    text-align: center;   
+}
+div.sidebar p{
+    text-align: justify;   
+}
+div.menu{
+    padding: 0 5%;
+}
+
+div.info{
+    float: left;
+    
+    margin: 25px;
+}
+div.info2{
+
+    padding-top: 10px;
+    
+}
+div.info2 a{
+    text-decoration: none;
+}
+div.hobbie{
+    
+    margin: 25px;
+}
+div.descricao {
+    
+    margin: 25px;
+}
+div.descricao li{
+    text-decoration: none;
+}
+div.motivacao{
+    text-align: center;
+
+    margin: 30px;
+}
+
+/* content */
+
+
+/* Footer */
+footer{
+    padding: 1px 15%;
+    background-color: white;
+    opacity: 0.7;
+    
+}
+.rodape{
+    padding-left: 0 10px;
+}
+
+.rodape a{
+    text-decoration: none;
+
+}
+
+/* Footer */
+
+

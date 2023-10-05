@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale=1.0>
+    <title>Postagens</title>
+    <link rel="stylesheet" type="text/css" href="css/stylePOST.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo left">
+                <h2>Blog do Jojo</h2>
+            </div> <!-- logo -->
+        
+            <div class="menu right">
+                
+                <ul>
+                    <li><a href="index.html" style="font-family: 'Barbie', sans-serif;">Perfil</a></li>
+                    <li><a href="posts.html" style="font-family: 'Barbie', sans-serif; font-weight: bold;">Posts</a></li>
+                    
+                    <div class="logo2 right">
+                        <img src="imagem-logo.png" alt="Logo Barbie">
+                    </div>
+                </ul>
+                
+            </div> <!-- menu -->
+            
+            <div class="clear"></div>
+        </div> <!-- container -->
+    </header>
+
+    
+
+    <section class="box-captura">
+        <div class="titulo">
+            <h1><a style="font-family: 'Barbie', sans-serif;">Post</a></h1>
+        </div>
+    </section> 
+
+    <section class="content">
+        <div class="post left">
+            <div class="post1">
+                <h3>Explorando a Programação Orientada a Objetos com Qt</h3>
+
+                <p>Olá a todos! Hoje, quero compartilhar com vocês o emocionante projeto que desenvolvi na disciplina de Programação Avançada, sob a orientação do professor Agostinho Brito. Este projeto envolveu a aplicação prática de conceitos de programação orientada a objetos, utilizando a poderosa biblioteca Qt. Vamos explorar como criei três módulos interconectados para simular um sistema de aquisição e supervisão de dados em uma rede local, usando comunicação TCP/IP.</p>
+
+
+                <p>O projeto consistiu na criação de três programas de computador que funcionam em conjunto para simular um sistema de aquisição e supervisão de dados em uma rede local. Cada um desses programas desempenha um papel específico na operação do sistema.</p>
+
+                <p><strong>1. O Servidor TCP/IP</strong></p>
+
+                <p>O servidor é o núcleo do sistema. Ele aguarda conexões TCP na porta 1234 e responde aos comandos enviados pelos clientes. Este módulo já estava pronto e não precisou ser desenvolvido. Sua função é garantir a comunicação e coordenação entre os clientes produtores de dados e o cliente supervisor.</p>
+
+                <p><strong>2. O Cliente Produtor de Dados</strong></p>
+
+                <p>O cliente produtor de dados é responsável por gerar e enviar informações para o servidor. Ele pode se conectar à máquina em execução com o servidor na porta 1234 e enviar dados, juntamente com marcações de data/hora. Isso é fundamental para aquisição e armazenamento de informações no sistema.</p>
+
+                <p><strong>3. O Cliente Supervisor de Dados</strong></p>
+
+                <p>O cliente supervisor de dados atua como um observador do sistema. Ele também se conecta ao servidor na porta 1234, mas sua função é recuperar informações. Pode obter a lista dos clientes produtores de dados e recuperar listagens de dados produzidos por um desses clientes. Isso é essencial para supervisionar e analisar os dados gerados pelo sistema.</p>
+
+
+                <p>Desenvolver esses módulos foi um desafio empolgante. Utilizei os conceitos de programação orientada a objetos para criar classes e objetos que representavam os clientes produtores e supervisores. A biblioteca Qt provou ser uma escolha excelente, oferecendo ferramentas poderosas para criar interfaces gráficas e gerenciar a comunicação TCP/IP.</p>
+
+
+                <p>Este projeto me proporcionou uma sólida compreensão da programação orientada a objetos e a oportunidade de aplicar esses conhecimentos na prática, utilizando a biblioteca Qt. Agradeço ao professor Agostinho Brito por orientar e incentivar meu desenvolvimento nesse projeto desafiador. Espero que minha experiência inspire outros a explorar o mundo da programação orientada a objetos e a criação de aplicativos interconectados. A aprendizagem contínua é fundamental, e projetos como esse são uma maneira incrível de adquirir habilidades valiosas no campo da programação.</p>
+
+                <p> </p>
+            </div>
+        </div>
+        <div class="sidebar right">
+            <div class="outrosPosts">
+                <h3>Outras Postagens</h3>
+                <h3><a href="post1.html">Uso de aprendizado de Maquina não-supervisionado para agrupamento Iris.</a></h3>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="rodape">
+            rodape
+        </div>
+    </footer>
+</body>
+</html>
