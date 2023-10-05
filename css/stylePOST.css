@@ -35,7 +35,7 @@ html, body {
 /* Header */
 header .container{
     
-    padding: 1px 10%;
+    padding: 1px 1%;
     
 }
 header .logo h2{
@@ -186,11 +186,22 @@ div.outrosPosts a{
 
 
 /* Footer */
+
 footer{
-    height: 5%;
-    padding-left: 25px;
+    padding: 1px 15%;
     background-color: white;
+    opacity: 0.7;
+    
 }
+.rodape{
+    padding-left: 0 10px;
+}
+
+.rodape a{
+    text-decoration: none;
+
+}
+
 /* Footer */
 
 

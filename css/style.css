@@ -35,7 +35,7 @@ html, body {
 /* Header */
 header .container{
     
-    padding: 1px 10%;
+    padding: 1px 1%;
     
 }
 header .logo h2{
@@ -133,7 +133,7 @@ div.post{
 .image-container {
     float: left;
 
-    border: 5px solid #b6aeae; /* Define a largura e a cor da borda */
+    border: 5px solid #e0218a; /* Define a largura e a cor da borda */
     width: 129px; /* Define a largura da div de contêiner */
     height: 159px;    
     border-radius: 5px;
