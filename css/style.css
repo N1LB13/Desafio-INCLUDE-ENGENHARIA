@@ -96,14 +96,14 @@ header .menu ul li a{
 /* Box-captura */
 section.box-captura{
     padding: 0 10%;
-    height: 80px;
+    height: 10%;
     background-color:#e0218a;
 
 }
 div.titulo{
     color: white;
     padding-top: 12px;
-    padding-left: 18px;
+    padding-left:  13%;
     font-size: 28px;
 }
 
@@ -114,7 +114,7 @@ div.titulo{
 /* content */
 section.content{
     
-    padding: 0 10%;
+    padding: 0 20%;
     height: 90%;
     background-color: #e0218a;
    
